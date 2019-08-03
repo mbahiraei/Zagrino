@@ -1,22 +1,258 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+/*
+Theme Name: Zagrino
+Theme URI: https://github.com/samanthasang/BootsTrap-Test
+Author: Aria Dl team
+Author URI: https://Zagrino.com/
+Description: Zagrino Downlod
+Version: 1.2
+License: GNU General Public License v2 or later
+*/
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
 
-    <title>Hello, world!</title>
-</head>
-<body>
-<h1>Hello, world!</h1>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-</html>
+@font-face{
+    font-family: "irsans";
+    src: url(../fonts/irsans.eot);
+    src: url(../fonts/irsans.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans.woff) format("woff"), url(../fonts/irsans.ttf) format("truetype"),    	url(../fonts/irsans.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font:12px Tahoma;
+    line-height:1;
+    font-family: IRANSans-web, serif !important;
+    background: #fcfdff;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-size:80%;
+    height:100vh;
+    margin:0;
+    padding:0;
+    text-transform:uppercase;
+    width:100%;
+    text-align: center !important;
+    color: #5c6672 !important;
+
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul, ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:none;
+}
+
+a {
+    text-decoration: none !important;
+    color: #313131 !important;
+    outline: none!important;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color: #3826ff;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+}
+input:focus{
+    transition:all .2s ease-in-out;
+    -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    -o-transition:all .2s ease-in-out;
+}
+:focus{
+    outline: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+i {
+    background: transparent !important;
+}
+button {
+    outline: none !important;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.2s 0.2s ease;
+    -webkit-transition:opacity 0.2s 0.2s ease;
+    -moz-transition:opacity 0.2s 0.2s ease;
+    -o-transition:opacity 0.2s 0.2s ease;
+    opacity: 0;
+    -moz-opacity: 0;
+}
+::placeholder{
+    color: #3b3b3b !important;
+    font-size:90%;
+}
+:-ms-input-placeholder{
+    color:#232323 !important;
+}
+::-ms-input-placeholder{
+    color: #232323 !important;
+}
+.p0 {
+    padding: 0!important;
+}
+
+
+
+
+
+
+
+
+
+
+/* -- header --*/
+.top_header {
+    float: right;
+}
+.menu_top {
+    float: right;
+}
+.menu_top ul li {
+    float: right;
+}
+.login {
+    float: right;
+}
+.buy {
+    float: left;
+}
+
+
+
+
+
+
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* -- header --*/
+/* ------------------ footer----*/
+
+end log_IN */
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 600px) {
+    
+}
+@media (max-width: 535px) {
+}
+@media (max-width: 600px) {
+}
+/* sm */
+@media (min-width: 768px) {
+}
+@media (max-width: 765px) {
+}
+/* md */
+@media (min-width: 992px) {
+}
+@media (max-width: 992px) {
+}
+/* lg */
+@media (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
