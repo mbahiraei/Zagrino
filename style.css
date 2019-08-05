@@ -31,7 +31,9 @@ time, mark, audio, video {
 
 
 @font-face{
-    font-family: "irsans";
+    font-family: 'Iransans';
+    src: url("fonts/IRANSansWeb(FaNum)_Bold.woff2") format("woff") ;
+
     src: url(fonts/irsans.eot);
     src: url(fonts/irsans.eot?#iefix) format("embedded-opentype"), url(fonts/irsans.woff) format("woff"), url(fonts/irsans.ttf) format("truetype"),    	url(fonts/irsans.svg#BYekan) format("svg");
 
@@ -195,7 +197,12 @@ input::-webkit-inner-spin-button {
 .t_align{
     text-align: center!important;
 }
-
+.f_r{
+    float: right!important;
+}
+.f_l{
+    float: left!important;
+}
 
 
 
@@ -203,13 +210,15 @@ input::-webkit-inner-spin-button {
 /* -- header --*/
 .top_header {
     float: right;
+    line-height: 3;
     border-right: 1px dotted #8e8e8e;
     border-radius: 0 0 20px 0;
     border-bottom: 1px dotted #8e8e8e;
 }
 .top_header .menu_top {
     float: right;
-    padding: 5px 10px;
+    padding: 6px 10px;
+    line-height: 2.5;
 }
 .top_header .menu_top ul{
     border-left: 1px solid #e6ebf2;
@@ -233,7 +242,6 @@ input::-webkit-inner-spin-button {
 }
 .top_header .login {
     float: right;
-    line-height: 3;
 }
 .top_header .login img{
     float: right;
@@ -242,11 +250,48 @@ input::-webkit-inner-spin-button {
     height: 30px;
     border: 1px dotted #8e8e8e;
 }
-.top_header .buy {
-    float: left;
+.top_header .buy .box ,.top_header .buy .add{
+    color: #fff;
+    border-radius: 20px;
+    line-height: 2.5;
+    margin: 4px -1px;
 }
-
-
+.top_header .buy .box{
+    background: #009900;
+}
+.top_header .buy .add{
+    background: #009900;
+    margin-right: 1%;
+}
+/* -- logo_slider --*/
+.header .logo_slider{
+    line-height: 3;
+}
+.header .logo_slider .text_holder{
+    text-align: right;
+    background: #f1f1f1;
+    border-radius: 20px;
+    line-height: 3;
+}
+.header .logo_slider .left_use{
+    font-size: 15px;
+    font-weight: bold;
+}
+.header .logo_slider .left_use i{
+    box-shadow: 0 0 20px 1px #b9b9b9;
+    padding: 5%;
+    border-radius: 20px;
+}
+.header .logo_slider .left_use .advice:before{
+    content: " ";
+    position: absolute;
+    border-left: 1px #c6c6c6  solid;
+    top: 30%;
+    right: 0;
+    height: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 
 
