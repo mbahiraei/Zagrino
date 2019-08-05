@@ -33,7 +33,7 @@ time, mark, audio, video {
 @font-face{
     font-family: "irsans";
     src: url(fonts/irsans.eot);
-    src: url(fonts/irsans.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans.woff) format("woff"), url(../fonts/irsans.ttf) format("truetype"),    	url(../fonts/irsans.svg#BYekan) format("svg");
+    src: url(fonts/irsans.eot?#iefix) format("embedded-opentype"), url(fonts/irsans.woff) format("woff"), url(fonts/irsans.ttf) format("truetype"),    	url(fonts/irsans.svg#BYekan) format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -219,7 +219,6 @@ input::-webkit-inner-spin-button {
     border: 1px solid transparent;
     line-height: 2.38;
     display: block;
-    padding: 0 25px;
     text-align: center;
 }
 .menu_top ul li a:hover{
