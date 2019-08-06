@@ -57,7 +57,8 @@ body {
     width:100%;
     text-align: center !important;
     color: #5c6672 !important;
-
+    overflow-x: hidden;
+    direction: rtl!important;
 }
 
 article,aside,details,figcaption,figure,
@@ -257,10 +258,10 @@ input::-webkit-inner-spin-button {
     margin: 4px -1px;
 }
 .top_header .buy .box{
-    background: #009900;
+    background: #0ac601;
 }
 .top_header .buy .add{
-    background: #009900;
+    background: #4455ff;
     margin-right: 1%;
 }
 /* -- logo_slider --*/
@@ -291,6 +292,9 @@ input::-webkit-inner-spin-button {
     height: 35%;
     margin-top: auto;
     margin-bottom: auto;
+}
+.under_date {
+    background: #ffd933;
 }
 
 
