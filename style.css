@@ -213,9 +213,9 @@ input::-webkit-inner-spin-button {
     font-size: 12px!important;
     float: right;
     line-height: 3;
-    border-right: 1px dashed #eef1f6;
+    border-right: 1px dashed #e3e3e3;
     border-radius: 0 0 20px 0;
-    border-bottom: 1px dashed #eef1f6;
+    border-bottom: 1px dashed #e3e3e3;
 }
 .top_header .menu_top {
     float: right;
@@ -223,7 +223,7 @@ input::-webkit-inner-spin-button {
     line-height: 2.5;
 }
 .top_header .menu_top ul{
-    border-left: 1px solid #e6ebf2;
+    border-left: 1px solid #e3e3e3;
 }
 .top_header .menu_top ul li {
     float: right;
@@ -250,7 +250,17 @@ input::-webkit-inner-spin-button {
     margin: 5px auto;
     padding: 3px 6px;
     height: 30px;
-    border: 1px dotted #8e8e8e;
+    border: 1px dashed #e3e3e3;
+}
+.top_header .login .place{
+    float: right;
+    text-align: right;
+}
+.top_header .login .place span{
+    padding: 0 5px!important;
+}
+.top_header .buy{
+    padding-top: 5px!important;
 }
 .top_header .buy .box ,.top_header .buy .add{
     color: #fff;
@@ -262,6 +272,13 @@ input::-webkit-inner-spin-button {
 }
 .top_header .buy .add{
     background: #4455ff;
+    padding-left: 15px!important;
+}
+.top_header .buy .add .c_icon{
+    float: left;
+    margin: 0px 0px !important;
+    line-height: 2;
+    font-size: 15px;
 }
 /* -- logo_slider --*/
 .header .logo_slider{
@@ -278,6 +295,7 @@ input::-webkit-inner-spin-button {
 }
 .header .logo_slider .text_holder{
     text-align: right;
+    margin-right: 20px;
     background: #fafafa;
     top: 25px;
     background: linear-gradient(to right , rgba(255,0,0,0), rgb(250, 250, 250));
@@ -298,7 +316,7 @@ input::-webkit-inner-spin-button {
 .header .logo_slider .left_use .advice:before{
     content: " ";
     position: absolute;
-    border-left: 1px #f6f6f6 solid;
+    border-left: 1px #e3e3e3 solid;
     top: 30%;
     right: 0;
     height: 35%;
@@ -320,20 +338,42 @@ input::-webkit-inner-spin-button {
     float: left;
     text-align: left;
 }
+/* ------------- search --*/
+.search{
+    border: 1px solid #e3e3e3;
+    border-radius: 20px;
+    padding: 10px !important;
+    margin-top: 15px;
+}
+.search .search_label{
+    float: right;
+    position: absolute;
+    margin: -13px 20px;
+    background: #fff;
+}
+.search .search_label span{
+    width: 5px;
+    height: 5px;
+    background: #e3e3e3;
+    border-radius: 20px;
+}
+.search .search_label div{
+    float: right;
+    line-height: 0.5;
+    padding: 0 10px;
+}
 
 
-
-
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
-/* -- header --*/
+/* ----------------------- header --*/
+/* ------------- header --*/
+/* ----------------------- header --*/
+/* ----------------------- header --*/
+/* ----------------------- header --*/
+/* ----------------------- header --*/
+/* ----------------------- header --*/
+/* ----------------------- header --*/
+/* ----------------------- header --*/
+/* ----------------------- header --*/
 /* ------------------ footer----*/
 
 /* end log_IN */
