@@ -213,9 +213,9 @@ input::-webkit-inner-spin-button {
     font-size: 12px!important;
     float: right;
     line-height: 3;
-    border-right: 1px dotted #8e8e8e;
+    border-right: 1px dashed #eef1f6;
     border-radius: 0 0 20px 0;
-    border-bottom: 1px dotted #8e8e8e;
+    border-bottom: 1px dashed #eef1f6;
 }
 .top_header .menu_top {
     float: right;
@@ -256,7 +256,6 @@ input::-webkit-inner-spin-button {
     color: #fff;
     border-radius: 20px;
     line-height: 2.5;
-    margin: 4px 8px;
 }
 .top_header .buy .box{
     background: #0ac601;
@@ -273,7 +272,7 @@ input::-webkit-inner-spin-button {
 
 }
 .header .logo_slider .logo img{
-    margin: 8px auto 0 auto;
+    margin: -5px auto 0 auto;
     position: absolute;
     z-index: 5;
 }
@@ -307,13 +306,18 @@ input::-webkit-inner-spin-button {
     margin-bottom: auto;
 }
 /* ------------------ under_date --*/
-.under_date {
-    background: #ffd933;
+.under_date img{
+    position: absolute;
 }
-.under_date .text_right{
+.under_date .container{
+    padding: 30px 240px 0 0 !important;
+}
+.under_date .text{
+    float: right;
     text-align: right;
 }
-.under_date .text_left{
+.under_date .date{
+    float: left;
     text-align: left;
 }
 
