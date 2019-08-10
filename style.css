@@ -362,6 +362,94 @@ input::-webkit-inner-spin-button {
     line-height: 0.5;
     padding: 0 10px;
 }
+.search .search_filled{
+    border-left: 5px solid transparent;
+}
+.search form{
+    float: right;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background: #f4f6f8;
+    line-height: 2.3;
+    padding: 0px 10px 0 5px !important;
+}
+.search form input{
+    float: right;
+    border: none;
+    background: transparent;
+    padding: 2px 10px;
+}
+.search form input::placeholder{
+    color: #bbc4d7;
+}
+.search form div{
+    padding: 3px !important;
+}
+.search form button{
+    float: left;
+    padding: 0;
+    border-radius: 20px;
+    width: 100%;
+    color: #100f0c;
+    background: #ffd933;
+    border: none;
+}
+.search form button i{
+    font-size: 17px;
+    line-height: 1.5;
+}
+.search form button:hover{
+    background: #ffd933;
+}
+.search .location{
+    float: right;
+    line-height: 2.6;
+    border-radius: 20px;
+    background: #f4f6f8;
+    border-left: 5px solid transparent;
+}
+.search .location i{
+    float:right;
+    line-height: 1.4;
+    font-size: 20px;
+}
+.search .select_box{
+    padding: 0 5px !important;
+}
+.search .select_box label{
+
+}
+.search .select_box select{
+    border-radius: 20px;
+    background: #f4f6f8;
+    border: none;
+    padding: 5px;
+}
+/* ----------------------- menu_bottom --*/
+.menu_bottom{
+    line-height: 4;
+}
+.menu_bottom i{
+    font-size: 20px;
+    float: right;
+    line-height: 2.5;
+}
+.menu_bottom ul{
+
+}
+.menu_bottom ul li{
+    float: right;
+    padding: 0 10px;
+}
+.menu_bottom ul li a{
+    background: #f4f6f8;
+}
+
+
+
+
+
 
 
 /* ----------------------- header --*/
