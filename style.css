@@ -80,7 +80,9 @@ blockquote:before, blockquote:after,
 q:before, q:after {
     content:none;
 }
-
+.mark{
+    background: none;
+}
 a {
     text-decoration: none !important;
     color: #313131 !important;
@@ -672,16 +674,187 @@ input::-webkit-inner-spin-button {
     height: 145px;
 }
 .Takhfifat .left_side ul li .img img{
-    height: 145px;
+    height: 150px;
+    border-radius: 10px;
+}
+.Takhfifat .left_side ul li .img .off_out{
+    position: absolute;
+    padding: 0 3px 3px 3px !important;
+    background: #fff;
+    border-radius: 0 0 0 14px;
+}
+.Takhfifat .left_side ul li .img .off_in{
+    background: #ec1e25;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+.Takhfifat .left_side ul li .head {
+    padding: 7px 0 5px 0 !important;
+    border-bottom: 1px solid #f3f3f3;
+}
+.Takhfifat .left_side ul li .head .location{
+    font-size: 11px;
+    color: #939aa4;
+    background: #f4f6f8;
+    padding: 0 10px !important;
+    border-radius: 20px;
+}
+.Takhfifat .left_side ul li .button_group{
+    padding: 5px 0!important;
+    border-bottom: 1px solid #f3f3f3;
+}
+.Takhfifat .left_side ul li .button_group span{
+    padding: 0 0 0 5px!important;
+}
+.Takhfifat .left_side ul li .button_group span button{
+    height: 30px;
+    width: 30px;
+    padding: 0 10px;
+    border: 1px solid #bbc4d7;
+    border-radius: 20px;
+    background: #fff;
+    color: #bbc4d7!important;
+}
+.Takhfifat .left_side ul li .button_group span button:hover{
+
+    color: #9c27b0 !important;
+    border-color: #9c27b0 !important;
+}
+.Takhfifat .left_side ul li .button_group span button i{
+    font-size: 22px;
+    line-height: 1.3;
+    margin: 0 -7px 0 0;
+}
+.Takhfifat .left_side ul li .price {
+    font-size: 13px;
+    padding: 5px 0!important;
+
+}
+.Takhfifat .left_side ul li .price .old{
+    color: #939aa4;
+    font-size: 12px;
+}
+.Takhfifat .left_side ul li .price .new_price{
+    color: #0ac601;
+    font-size: 13px;
+}
+.Takhfifat .left_side ul li .see_buy{
+    margin: 5px;
+}
+.Takhfifat .left_side ul li .see_buy button{
+    background: #f4f6f8;
+    color: #939aa4;
+    font-size: 13px;
+    border-radius: 20px;
+    border: none;
+}
+.Takhfifat .left_side ul li .see_buy button:focus{
+    background: #f4f6f8;
 }
 /* ----------------------- Agahiha_Niazmandiha --*/
 .Agahiha_Niazmandiha .outer,.Agahiha_Niazmandiha .inner {
     background: #673ab7;
 }
+.Agahiha_Niazmandiha .left_side ul li{
+    padding: 5px!important;
+}
+.Agahiha_Niazmandiha .left_side ul li .c_bg{
+    background: #f4f6f8;
+    border-radius: 10px;
+    padding: 10px!important;
+}
+.Agahiha_Niazmandiha .left_side ul li .right .img .special_out {
+    position: absolute;
+    padding: 0 3px 3px 3px !important;
+    background: #fff;
+    border-radius: 0 0 0 14px;
+}
+.Agahiha_Niazmandiha .left_side ul li .right .img .special_out .special_in{
+    background: #ec1e25;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+.Agahiha_Niazmandiha .left_side ul li .right img{
+    height: 140px;
+    border-radius: 10px;
+}
+.Agahiha_Niazmandiha .left_side ul li .right button{
+    border: 1px solid #c2cadb;
+    text-align: center;
+    font-size: 11px;
+    color: #939aa4;
+    background: transparent;
+    border-radius: 15px;
+    margin: 2px 0;
+}
+.Agahiha_Niazmandiha .left_side ul li .right .color{
+    background: #673ab7!important;
+    color: #fff!important;
+}
+.Agahiha_Niazmandiha .left_side ul li .left{
+    padding-right: 3px!important;
+}
+.Agahiha_Niazmandiha .left_side ul li .left i{
+    float: right;
+    padding:0 4px;
+    margin: 2px 0;
+    font-size: 15px;
+}
+.Agahiha_Niazmandiha .left_side ul li .left .c_text{
+    height: 140px;
+    overflow: hidden;
+}
+.Agahiha_Niazmandiha .left_side ul li .left .c_text .c_tag{
+    background: #e9ebec;
+    border-radius: 20px;
+    padding: 0 5px!important;
+    font-size: 11px;
+    text-align: center;
+}
+.Agahiha_Niazmandiha .left_side ul li .left .c_text .c_title{
+    font-size: 13px;
+    color: #464646;
+    font-weight: bold;
+    padding-top: 10px!important;
+}
+.Agahiha_Niazmandiha .left_side ul li .left .location{
+    background: #fff;
+    margin: 4px 0;
+    border-radius: 20px;
+    padding: 0 5px!important;
+    font-size: 11px;
+    text-align: center;
+}
+.Agahiha_Niazmandiha .left_side ul li .left .c_validate,.c_observe,.c_code {
+    color: #939aa4;
+    font-size: 11px;
+}
+.Agahiha_Niazmandiha .left_side ul li .left .c_validate{
+    margin: 3px 0 5px 0;
+}
+.Agahiha_Niazmandiha .left_side ul li .information {
+    padding: 10px 0 0 0 !important;
+}
+.Agahiha_Niazmandiha .left_side ul li .information button{
+    background: #fff;
+    color: #464646!important;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+}
+.Agahiha_Niazmandiha .left_side ul li .information button:focus{
+    background: #fff;
+}
 /* ----------------------- Roidad --*/
 .Roidad .outer,.Roidad .inner {
     background: #3f51b5;
 }
+.Roidad .left_side ul li{
+    padding: 5px!important;
+}
+
 /* ----------------------- Bazarche --*/
 .Bazarche .outer,.Bazarche .inner {
     background: #00bcd4;
