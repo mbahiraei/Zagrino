@@ -1612,7 +1612,7 @@ footer .second_section .copyRight_l span{
 }
 .b_m_v .under_poster {
     line-height: 3;
-    padding: 20px 0 !important;
+    padding: 20px 0 0 0 !important;
 }
 .b_m_v .under_poster .sabt {
     background: #ed1c24;
@@ -1628,6 +1628,24 @@ footer .second_section .copyRight_l span{
     background: #fff !important;
     color: #ed1c24;
     border-radius: 20px;
+}
+.b_m_v .under_poster .is-target-visible .c_bg{
+    border-bottom: none;
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 10px !important;
+}
+.b_m_v .under_poster .c_bg .position{
+    display: none;
+}
+.b_m_v .under_poster .is-target-visible .c_bg .position{
+    display: block;
+    position: absolute;
+    height: 15px;
+    background: #fff;
+    width: 100%;
+    margin: 40px -10px 0 0;
+    z-index: 2;
+    transition: none;
 }
 .b_m_v .under_poster .c_bg{
     background: #fff;
@@ -1654,8 +1672,102 @@ footer .second_section .copyRight_l span{
     font-size: 15px;
     margin: -5px 0 0 11px;
 }
-.b_m_v .moarefi_toggler{}
-.b_m_v .moarefi_toggler {}
+/* ------- moarefi_toggler -------- */
+.b_m_v .moarefi_toggler{
+    border: 1px solid #eef1f3;
+    padding: 15px !important;
+    border-radius: 10px;
+}
+.b_m_v .moarefi_toggler .flex_box .big_img{
+    flex: 1.4;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.b_m_v .moarefi_toggler .flex_box .little_img{
+    flex: 1;
+}
+.b_m_v .moarefi_toggler .flex_box .big_img img{
+    width: 100%;
+    min-height: 350px;
+}
+.b_m_v .moarefi_toggler .flex_box ul li{
+    margin-bottom: 10px;
+    padding: 0 15px 0 0;
+}
+.b_m_v .moarefi_toggler .flex_box ul li div{
+    border-radius: 10px;
+    height: 110px;
+    overflow: hidden;
+}
+.b_m_v .moarefi_toggler .flex_box .little_img img{
+    border-radius: 10px;
+    min-height: 115px;
+    max-height: 120px;
+    width: 100%;
+}
+.b_m_v .moarefi_toggler .title{
+    font-size: 16px;
+    font-weight: normal;
+    color: #8d8d8d;
+    line-height: 3;
+}
+.b_m_v .moarefi_toggler .caption{
+    border: 1px solid #eef1f3;
+    padding: 20px 10px !important;
+    border-radius: 10px;
+    margin: 15px 0 10px 0;
+}
+.b_m_v .moarefi_toggler .caption p{
+    font-size: 13px;
+    color: #9fa4ae;
+    line-height: 1.8;
+    font-weight: normal;
+}
+.b_m_v .moarefi_toggler .img_text_on{
+    margin: 15px 0 0 0;
+}
+.b_m_v .moarefi_toggler .img_text_on ul{
+    border: 1px solid #eef1f3;
+    border-radius: 10px;
+    padding: 20px 20px !important;
+}
+.b_m_v .moarefi_toggler .img_text_on ul li{
+    position: relative;
+    margin: 0 0 15px 0;
+}
+.b_m_v .moarefi_toggler .img_text_on ul li .text_on{
+    position: absolute;
+    margin: 11% -3% 0 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    z-index: 99;
+}
+.b_m_v .moarefi_toggler .img_text_on ul li .img_holder{
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.b_m_v .moarefi_toggler .img_text_on ul li img{
+    max-height: 150px;
+    min-height: 120px;
+    width: 100%;
+    -webkit-filter: brightness(0.7);
+    filter: brightness(0.7);
+}
+.b_m_v .moarefi_toggler .price{
+    border: 1px solid #eef1f3;
+    border-radius: 10px;
+    padding: 15px 10px !important;
+    font-size: 15px;
+}
+.b_m_v .moarefi_toggler .price span{
+    color: #2bab6a;
+    font-size: 16px;
+}
+/* ------- toggler_tabs -------- */
 .b_m_v .toggler_tabs{
     padding:20px 0 !important;
     line-height: 2;
@@ -1742,11 +1854,40 @@ footer .second_section .copyRight_l span{
 
 
 
-/* ------- saate kari -------- */
+/* ------- saate kari_FREE -------- */
 .b_m_v .border_box .tabs .t_t_saate_kari p{
     line-height: 1.8;
     font-size: 12px;
 }
+/* -------  saate_kari_vip -------- */
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .title{
+    color: #fff;
+    padding: 35px 0 !important;
+    border-radius: 20px;
+    background: #e91e63;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .title .title_r{
+    line-height: 2.5;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .title .title_r .icon{
+    text-align: left;
+    font-size: 20px;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .title .title_r .text{
+    padding: 5px 0 !important;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .title .title_l {
+    text-align: right;
+    float: left;
+    height: 50px;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .table {}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .table thead th{}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .table tbody td{
+    text-align: center;
+}
+
+
 /* ------- ettelaate tamas -------- */
 .b_m_v .border_box .tabs .t_t_etelaat_tamas ul li{
     padding-bottom: 20px !important;
@@ -1814,15 +1955,50 @@ footer .second_section .copyRight_l span{
     min-height: 200px;
 }
 /* ------- menu va list khadamat -------- */
-.b_m_v .border_box .tabs .t_t_menu_list_khadamat div{
-    padding: 20px!important;
+.b_m_v .border_box .tabs .t_t_menu_list_khadamat ul li{
+    float: right;
+    padding-bottom: 10px!important;
 }
-.b_m_v .border_box .tabs .t_t_menu_list_khadamat div img{
+.b_m_v .border_box .tabs .t_t_menu_list_khadamat ul li .img_in{
     border-radius: 10px;
-    min-height: 450px;
-    max-height: 500px;
+    overflow: hidden;
+    height: 400px;
 }
-
+.b_m_v .border_box .tabs .t_t_menu_list_khadamat ul li .img_in img{
+    width: 100%;
+    min-height: 410px;
+    max-height: 430px;
+}
+/* ------- taghdirname -------- */
+.b_m_v .border_box .tabs .t_t_loh_taghdirname ul li{
+    float: right;
+    padding-bottom: 10px!important;
+}
+.b_m_v .border_box .tabs .t_t_loh_taghdirname ul li .img_in{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 345px;
+}
+.b_m_v .border_box .tabs .t_t_loh_taghdirname ul li .img_in img{
+    width: 100%;
+    min-height: 350px;
+    max-height: 380px;
+}
+/* ------- mojavezha -------- */
+.b_m_v .border_box .tabs .t_t_mojavezha ul li{
+    float: right;
+    padding-bottom: 10px!important;
+}
+.b_m_v .border_box .tabs .t_t_mojavezha ul li .img_in{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 345px;
+}
+.b_m_v .border_box .tabs .t_t_mojavezha ul li .img_in img{
+    width: 100%;
+    min-height: 350px;
+    max-height: 380px;
+}
 /* -------users_point-------- */
 .users_point .head{
 }
