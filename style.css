@@ -1442,6 +1442,12 @@ footer .second_section .copyRight_l span{
     line-height: 2.77;
     border-radius: 20px;
 }
+.b_m_v .border_box .flex_box .left_side .contact_section .c_border div img{
+    max-height: 30px;
+    float: left;
+    min-height: 30px;
+    margin: 5px 0px 0 15px;
+}
 .b_m_v .border_box .flex_box .left_side .contact_section .contact_lite div{
     border-color: #e9ecef;
 }
@@ -1818,8 +1824,7 @@ footer .second_section .copyRight_l span{
     text-align: center;
 }
 /* ------- clip tablighati -------- */
-
-
+.b_m_v .border_box .tabs .t_t_clip{}
 /* ------- tozihate koli -------- */
 .b_m_v .border_box .tabs .t_t_tozihat p{
     line-height: 1.8;
@@ -1862,7 +1867,7 @@ footer .second_section .copyRight_l span{
 /* -------  saate_kari_vip -------- */
 .b_m_v .border_box .tabs .t_t_saate_kari_vip .title{
     color: #fff;
-    padding: 35px 0 !important;
+    padding: 15px 0 !important;
     border-radius: 20px;
     background: #e91e63;
 }
@@ -1881,9 +1886,37 @@ footer .second_section .copyRight_l span{
     float: left;
     height: 50px;
 }
-.b_m_v .border_box .tabs .t_t_saate_kari_vip .table {}
-.b_m_v .border_box .tabs .t_t_saate_kari_vip .table thead th{}
-.b_m_v .border_box .tabs .t_t_saate_kari_vip .table tbody td{
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week {
+    padding: 25px 0 !important;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li{
+    width: 14.2%;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li .title_date{
+    font-size: 14px;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li{
+    font-size: 11px;
+    width: 100%;
+    padding: 15px 10px;
+    line-height: 1.8;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li .time{
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week .j_c ul li{
+    color:#dc063d!important;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week .j_c .time{
+    border-color: #dc063d !important;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li .time div{
+    text-align: center;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li .date{
+    line-height: 3;
     text-align: center;
 }
 
