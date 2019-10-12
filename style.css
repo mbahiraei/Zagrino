@@ -438,6 +438,32 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     padding: 2px 16px!important;
     font-size: 11px;
 }
+/* ------- input_image_global -------- */
+form .i_i{
+    padding: 30px !important;
+}
+form .i_i_in{
+    border: 4px dashed #98a3a7;
+    border-radius: 20px;
+    text-align: center;
+    padding: 70px !important;
+    cursor: pointer;
+}
+form .u_i{
+    position: absolute;
+    margin: -139px -70px 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+form .i_i i{
+    font-size: 60px;
+    color: #dcdcdc !important;
+}
 
 
 
@@ -1280,6 +1306,9 @@ footer form .footer_grid .footer_border{
     margin: -2px 15px;
     font-size: 11px;
 }
+footer form .footer_grid .footer_border label{
+    padding: 0 10px !important;
+}
 footer .footer_border span{
     background: #e7ebee;
     height: 5px;
@@ -1471,6 +1500,12 @@ footer .second_section .copyRight_l span{
     border: 1px solid;
     line-height: 2.77;
     border-radius: 20px;
+}
+.b_m_v .border_box .flex_box .left_side .contact_section .c_border div img{
+    max-height: 30px;
+    float: left;
+    min-height: 30px;
+    margin: 5px 0px 0 15px;
 }
 .b_m_v .border_box .flex_box .left_side .contact_section .contact_lite div{
     border-color: #e9ecef;
@@ -1848,8 +1883,7 @@ footer .second_section .copyRight_l span{
     text-align: center;
 }
 /* ------- clip tablighati -------- */
-
-
+.b_m_v .border_box .tabs .t_t_clip{}
 /* ------- tozihate koli -------- */
 .b_m_v .border_box .tabs .t_t_tozihat p{
     line-height: 1.8;
@@ -1892,7 +1926,7 @@ footer .second_section .copyRight_l span{
 /* -------  saate_kari_vip -------- */
 .b_m_v .border_box .tabs .t_t_saate_kari_vip .title{
     color: #fff;
-    padding: 35px 0 !important;
+    padding: 15px 0 !important;
     border-radius: 20px;
     background: #e91e63;
 }
@@ -1911,9 +1945,37 @@ footer .second_section .copyRight_l span{
     float: left;
     height: 50px;
 }
-.b_m_v .border_box .tabs .t_t_saate_kari_vip .table {}
-.b_m_v .border_box .tabs .t_t_saate_kari_vip .table thead th{}
-.b_m_v .border_box .tabs .t_t_saate_kari_vip .table tbody td{
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week {
+    padding: 25px 0 !important;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li{
+    width: 14.2%;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li .title_date{
+    font-size: 14px;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li{
+    font-size: 11px;
+    width: 100%;
+    padding: 15px 10px;
+    line-height: 1.8;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li .time{
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week .j_c ul li{
+    color:#dc063d!important;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week .j_c .time{
+    border-color: #dc063d !important;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li .time div{
+    text-align: center;
+}
+.b_m_v .border_box .tabs .t_t_saate_kari_vip .week ul li ul li .date{
+    line-height: 3;
     text-align: center;
 }
 
@@ -2154,11 +2216,320 @@ footer .second_section .copyRight_l span{
 .similar_jobs .list_item ul li .more_item .score{
 
 }
+/* --------------------- Bank_mashaghel_rigan_FORM --*/
+.b_m_form{}
+.b_m_form .head{
+    background: #e91e63;
+    color: #fff;
+    line-height: 2;
+    padding: 5px 15px 5px 0 !important;
+    border-radius: 20px;
+}
+.b_m_form form{
+    margin: 5% 0;
+    border: 2px dotted #dcdcdc;
+    border-radius: 20px;
+}
+.b_m_form form .title{
+    color: #808080;
+    line-height: 0;
+    z-index: 6;
+    font-size: 20px;
+    position: relative;
+}
+.b_m_form form .title span{
+    background: #fff;
+    padding: 0 15px !important;
+}
+.b_m_form form .right, .left{
+    margin: 30px 0;
+}
+.b_m_form form .left{
+    padding-right: 10px !important;
+}
+.b_m_form form .right{
+    padding-left: 10px !important;
+}
+.b_m_form form .fild_title{
+    color: rgba(128,128,128,0.71);
+    position: absolute;
+    background: #fff;
+    line-height: 0.5;
+    z-index: 6;
+    margin: -2px 15px;
+    font-size: 11px;
+}
+.b_m_form form .fild_title span{
+    background: #e7ebee;
+    height: 5px;
+    width: 5px;
+    border-radius: 20px;
+}
+.b_m_form form .fild_title label{
+    padding: 0 10px !important;
+}
+.b_m_form form .fild{
+    padding-bottom: 20px !important;
+    line-height: 2.5;
+}
+.b_m_form form .fild .fild_in{
+    border: 1px solid #E7EBEE;
+    border-radius: 20px;
+    padding:5px 10px !important;
+    position: relative;
+}
+.b_m_form form .fild .fild_in .upload_img{
+    position: absolute;
+    margin: -36px -10px 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.b_m_form form .fild .fild_in .upload_img i{
+
+}
+/* --left--*/
+
+.b_m_form form .left .uploaded_img li{
+    padding: 5px !important;
+}
+.b_m_form form .left .uploaded_img li img{
+    height: 100px;
+    position: relative;
+    border-radius: 20px;
+}
+.b_m_form form .left .uploaded_img li button{
+    color: #8c8c92;
+    font-size: 12px;
+    line-height: 2.2;
+    position: absolute;
+    margin: -95px 5px 0 0;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.b_m_form form .left .uploaded_img li button i{
+    font-size: 20px;
+    float: right;
+    color: #ff6c71;
+    margin: 2px 5px 0 0;
+}
+.b_m_form form .left .logo_preview .logo_preview_r img{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px;
+    background-image: url("img/logo_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.b_m_form form .left .logo_preview .logo_preview_l {
+    line-height: 2.8;
+    font-size: 11px;
+    padding: 30px 0 0 0 !important;
+    color: #9ba1ab;
+}
+.b_m_form form .left .logo_preview .logo_preview_l span {
+    padding: 0 5px;
+    color: #474747;
+}
+.b_m_form form .left .logo_preview .logo_preview_l button {
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 5px #e7ebee;
+}
+.b_m_form form .left .logo_preview .logo_preview_l button i {
+    float: right;
+    margin: 3px 10px 0 0;
+    font-size: 20px;
+    color: #ff6c71!important;
+}
+.b_m_form form .left .kasb_kar_img img{
+    width: 100%;
+    max-height: 550px;
+    min-height: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+}
+.b_m_form form .left .kasb_kar_img button {
+    position: absolute;
+    top: 0;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    margin: 5px 5px 0 0;
+    font-size: 12px;
+    color: #949aa4;
+}
+.b_m_form form .left .kasb_kar_img button i {
+    float: right;
+    margin: 3px 10px 0 0;
+    font-size: 20px;
+    color: #ff6c71!important;
+}
 
 
 
 
-
+/* --right--*/
+.b_m_form form .right .fild .group{
+    clear: both;
+}
+.b_m_form form .right .fild .set{
+    padding: 20px !important;
+}
+.b_m_form form .right .fild .fild_in input{
+    border: none;
+    background: transparent;
+    transition: opacity 0.2s 0.2s ease;
+    -webkit-transition: opacity 0.2s 0.2s ease;
+    -moz-transition: opacity 0.2s 0.2s ease;
+    -o-transition: opacity 0.2s 0.2s ease;
+}
+.b_m_form form .right .fild .fild_in select{
+    border: none;
+    height: 31px;
+}
+.b_m_form form .right .fild .radio_label{
+    text-align: center;
+    float: right;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+    color: #939aa4;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.b_m_form form .right .fild .radio_label input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.b_m_form form .right .fild .radio_label .checkmark{
+    position: absolute;
+    top: 6px;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.b_m_form form .right .fild .radio_label:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.b_m_form form .right .fild .radio_label input:checked ~ .checkmark {
+    background-color: #fff;
+    border: 1px solid #4454ff;
+}
+.b_m_form form .right .fild .radio_label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.b_m_form form .right .fild .radio_label input:checked ~ .checkmark:after {
+    display: block;
+}
+.b_m_form form .right .fild .radio_label .checkmark:after {
+    top: 2px;
+    left: 2px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #4454ff;
+}
+.b_m_form form .right .fild .radio_input span{
+    color: #939aa4;
+    font-size: 11px;
+}
+.b_m_form form .right .fild .radio_input input{
+    border: 1px solid #E7EBEE;
+    border-radius: 20px;
+    padding: 2px 10px !important;
+}
+.b_m_form form .right .fild .fild_in textarea{
+    border: none;
+    resize: none;
+    padding: 5px !important;
+}
+.b_m_form form .right .fild .inner_bordered{
+    padding: 20px 10px !important;
+}
+.b_m_form form .right .fild .inner_bordered li{
+    float: right;
+    padding: 5px 10px !important;
+}
+.b_m_form form .right .fild .inner_bordered li label{
+    border: 1px solid #E7EBEE;
+    border-radius: 20px;
+    padding: 5px 7px !important;
+}
+.b_m_form form .right .fild .inner_bordered li label .checkmark{
+    top: 10px !important;
+    right: 10px!important;
+}
+.b_m_form form .right .contact_info .title_info{
+    padding-bottom: 20px !important;
+}
+.b_m_form form .right .contact_info .title_info span{
+    background: #f4f6f8;
+    border-radius: 20px;
+    border: 1px solid #ebeff1;
+    padding:5px 10px !important;
+    color: #464646;
+    font-size: 11px;
+}
+.b_m_form form .right .contact_info ul li{
+    padding-bottom: 20px!important;
+}
+.b_m_form form .right .contact_info ul li .fild_in label{
+    line-height: 0;
+}
+.b_m_form form .right .contact_info ul li .fild_in img{
+    height: 30px;
+}
+.b_m_form form .right .contact_info .select_map .title_map{
+    padding-bottom: 10px;
+    color: rgba(128,128,128,0.71)!important;
+}
+.b_m_form form .right .contact_info .select_map .map{
+    border: 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.b_m_form form .right .tavajoh {
+    color: #e91e63;
+}
+.b_m_form form .right .tavajoh .fild_title{
+    color: #e91e63;
+}
+.b_m_form form .right .tavajoh .fild_title span{
+    background: #e91e63;
+}
+.b_m_form form .right .tavajoh .fild_in{
+    border-color: #e91e63;
+    padding: 20px 10px !important;
+}
+.b_m_form form .right .form_submit{
+}
+.b_m_form form .right .form_submit button{
+    padding:5px !important;
+    border-radius: 20px;
+    border: none;
+    background: #4455ff;
+    color: #fff!important;
+    box-shadow: 0 0 20px 0 #a7affe;
+}
 
 
 
