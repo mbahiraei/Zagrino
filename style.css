@@ -358,6 +358,9 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     margin-top: 5px;
     border-radius: 10px;
 }
+.section_head .right_side .title .hover .see_all{
+    transition: none !important;
+}
 .section_head .right_side ul{
     text-align: right;
     line-height: 2;
@@ -464,7 +467,6 @@ form .i_i i{
     font-size: 60px;
     color: #dcdcdc !important;
 }
-
 
 
 
@@ -1188,17 +1190,17 @@ form .i_i i{
     border-radius: 10px;
 }
 .column_left section .b1{
-    padding: 13px 4px 12px;
+    padding: 13px 4px 13px;
     border-radius: 50px;
     border: 1px solid #e7ebee;
     border-top: outset transparent;
     border-right: outset transparent;
-    transform: rotate(-45deg);
-    margin: -32px 0 0 0;
+    transform: rotate(-44deg);
+    margin: -31px 0 0 0;
     background: #fff;
 }
 .column_left section .b1 .b2{
-    transform: rotate(45deg);
+    transform: rotate(44deg);
 }
 .column_left section .b1 .b2 i{
     font-size: 18px;
@@ -2298,11 +2300,13 @@ footer .second_section .copyRight_l span{
     padding: 5px !important;
 }
 .b_m_form form .left .uploaded_img li img{
+    border: 1px solid #e7ebee;
     height: 100px;
     position: relative;
     border-radius: 20px;
 }
 .b_m_form form .left .uploaded_img li button{
+    box-shadow: 0 1px 2px 0 #dcdcdc;
     color: #8c8c92;
     font-size: 12px;
     line-height: 2.2;
@@ -2351,14 +2355,16 @@ footer .second_section .copyRight_l span{
     color: #ff6c71!important;
 }
 .b_m_form form .left .kasb_kar_img img{
+    border: 1px solid #e7ebee;
+    min-height: 350px;
     width: 100%;
     max-height: 550px;
-    min-height: auto;
     border-radius: 20px;
     margin: 0 auto;
     display: block;
 }
 .b_m_form form .left .kasb_kar_img button {
+    box-shadow: 0 1px 2px 0 #dcdcdc;
     position: absolute;
     top: 0;
     border: none;
@@ -2374,10 +2380,6 @@ footer .second_section .copyRight_l span{
     font-size: 20px;
     color: #ff6c71!important;
 }
-
-
-
-
 /* --right--*/
 .b_m_form form .right .fild .group{
     clear: both;
@@ -2532,6 +2534,103 @@ footer .second_section .copyRight_l span{
 }
 
 
+/* --------------------- Niazmandiha_dastehbandi --*/
+.niazmandiha .section_head .b_r{
+    border-radius: 20px !important;
+}
+.niazmandiha .section_head .b_r img{
+    position: absolute;
+    margin: 6px -25px 0 0;
+    right: 0;
+}
+.niazmandiha .section_head .dasteh ul li{
+    float: right;
+    font-size: 12px;
+    padding: 10px 0 10px 10px !important;
+}
+.niazmandiha .section_head .dasteh ul li a div{
+    padding: 10px 20px !important;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+.niazmandiha .section_head .box{
+    padding:10px 0 !important;
+}
+.niazmandiha .section_head .find .title{
+    float: right;
+    background: #6ddcff;
+    color: #495358;
+    font-size: 12px;
+    padding: 5px 25px !important;
+    border-radius: 20px;
+}
+.niazmandiha .section_head .find ul li{
+    float: right;
+    padding: 10px 0 10px 10px !important;
+}
+.niazmandiha .section_head .find .radio_label{
+    border: 1px solid #e7ebee;
+    border-radius: 20px;
+    padding: 5px 25px !important;;
+    text-align: center;
+    float: right;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 11px;
+    color: #939aa4;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.niazmandiha .section_head .find .radio_label input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.niazmandiha .section_head .find .radio_label .checkmark{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #979da6;
+}
+.niazmandiha .section_head .find .radio_label:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.niazmandiha .section_head .find .radio_label input:checked ~ .checkmark {
+    background-color: #fff;
+    border: 1px solid #4454ff;
+}
+.niazmandiha .section_head .find .radio_label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.niazmandiha .section_head .find .radio_label input:checked ~ .checkmark:after {
+    display: block;
+}
+.niazmandiha .section_head .find .radio_label .checkmark:after {
+    top: 2px;
+    left: 2px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #4454ff;
+}
+.niazmandiha .section_head .find .radio_label span{
+    color: #939aa4;
+    font-size: 11px;
+}
+.niazmandiha .section_head .find .radio_label input{
+    border: 1px solid #E7EBEE;
+    border-radius: 20px;
+    padding: 2px 10px !important;
+}
 
 /* ----------------------- header --*/
 /* ------------- header --*/
