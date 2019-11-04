@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="409a9855-4a5d-4546-a205-b259e51106a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/starssss.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankMashaghelRaigan_Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankMashaghelRaigan_Form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Niazmandi.html" beforeDir="false" afterPath="$PROJECT_DIR$/Niazmandi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/niazmandi_zir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Niazmandi-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Niazmandi-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +40,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MOJTABA\Documents\GitHub\Zagrino" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,7 +172,19 @@
       <workItem from="1571897272266" duration="1525000" />
       <workItem from="1572077429556" duration="6022000" />
       <workItem from="1572094075911" duration="9868000" />
-      <workItem from="1572245339785" duration="1609000" />
+      <workItem from="1572245339785" duration="9207000" />
+      <workItem from="1572266703790" duration="5216000" />
+      <workItem from="1572276515882" duration="2828000" />
+      <workItem from="1572334741995" duration="4950000" />
+      <workItem from="1572418236174" duration="3453000" />
+      <workItem from="1572442287217" duration="6624000" />
+      <workItem from="1572504216994" duration="1750000" />
+      <workItem from="1572530496703" duration="2868000" />
+      <workItem from="1572677718467" duration="99000" />
+      <workItem from="1572682233056" duration="6778000" />
+      <workItem from="1572705047179" duration="6421000" />
+      <workItem from="1572770981076" duration="3011000" />
+      <workItem from="1572784808553" duration="1990000" />
     </task>
     <servers />
   </component>

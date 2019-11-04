@@ -233,7 +233,10 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 .clear{
     clear: both!important;
 }
-
+textarea{
+    resize: none;
+    border: none;
+}
 
 /* ------- input_global -------- */
 form .fild{
@@ -323,7 +326,6 @@ form .fild .radio_label input{
     opacity: 0;
     cursor: pointer;
 }
-
 /* --------------- Custom_style --*/
 .display_none{
     display: none!important;
@@ -549,4 +551,88 @@ form .u_i{
 form .i_i i{
     font-size: 60px;
     color: #dcdcdc !important;
+}
+/* ------- form_midle_title -------- */
+form .form_midle_title{
+    margin: 40px 0;
+    height: 1px;
+    background: #e7ebee;
+}
+form .form_midle_title .form_midle_title_in{
+    margin: -5px 0 0 0;
+    text-align: center;
+}
+form .form_midle_title span{
+    background: #f4f6f8;
+    border-radius: 20px;
+    padding: 2px 15px;
+    font-size: 12px;
+    border: 1px solid #e7ebee;
+}
+/* ------- form_change_button -------- */
+form .button_change{
+    text-align: right;
+    margin-top: 3px;
+    border: none;
+    float: right;
+    padding: 8px 20px;
+    background: #2a57ff;
+    color: #fff!important;
+    font-size: 12px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px #2a57ff61;
+}
+form .button_change i{
+    font-size: 13px;
+    float: left;
+}
+/* ------- img_input -------- */
+form .img_place .img_input{
+    border: 4px dashed #dcdcdc;
+    border-radius: 20px;
+    position: relative;
+}
+form .img_input input{
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    z-index: 5;
+}
+form .img_input_in{
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0 !important;
+}
+
+form .img_input_in i{
+    color: #d3dae4;
+    font-size: 60px;
+}
+/* ------- form_main_button -------- */
+form .main_button{
+    text-align: center;
+    margin-top: 3px;
+    border: none;
+    float: right;
+    padding: 8px 20px;
+    background: #2a57ff;
+    color: #fff!important;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px #2a57ff61;
+}
+/* ------- form_movafeghat_radio-------- */
+form .movafeghat {
+    display: inline-flex;
+}
+form .movafeghat .radio_label{
+    display: block;
+    margin: 0 auto;
+}
+form .movafeghat .checkmark{
+    right: 25px!important;
+    top: 8px!important;
 }

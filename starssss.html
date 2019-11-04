@@ -1,0 +1,503 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- player -->
+    <link rel="stylesheet" href="css/player.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- Hover -->
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+    <link rel="stylesheet" href="css/toggler.css">
+    <!-- Font Icons -->
+    <link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pace.css">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <!-- Swiper -->
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+.star_tog{
+padding: 15px 0;
+}
+.star_tog li{
+float: right;
+border-left: 1px solid #dcdcdc;
+padding: 15px ;
+}
+.star_tog li:last-child{
+border-left: none;
+}
+.star_tog li a{
+
+}
+.star_tog li .is-target-visible{
+color: blue!important;
+}
+.star_tog li a div{
+
+}
+.star_tabs{
+
+}
+.star_tabs .js-toggler{
+
+}
+.star_tabs .js-toggler form{
+
+}
+
+<body>
+
+
+
+<div class="container" >
+
+    <!--
+
+<div class="col-lg-12 accordion">
+    <ul class="col-lg-12 star_accordion">
+
+        <li class="">
+            <div class="accordion_head">
+                <a href="#" data-toggler="toggle" data-toggler-target="#starac1" data-toggler-collection="#accordion" class="active">
+                    Head1
+                </a>
+            </div>
+            <div class="accordion_body js-toggler is-visible" id="starac1" style="">
+
+                111111111
+
+            </div>
+        </li>
+
+        <li>
+            <div class="accordion_head">
+                <a href="#" data-toggler="toggle" data-toggler-target="#starac2" data-toggler-collection="#accordion">
+                    Head2
+                </a>
+            </div>
+            <div class="accordion_body js-toggler" id="starac2" style="">
+                2222222222
+            </div>
+        </li>
+
+    </ul>
+
+</div>
+ -->
+
+
+    <ul class="col-lg-12 star_tog">
+        <li class=" ">
+            <a href="#star" class="" data-toggler="tabs" data-toggler-collection="#tabs_star">
+                <div class="">
+                    درخواست برنامه
+                </div>
+            </a>
+        </li>
+        <li class=" ">
+            <a href="#star1" class="" data-toggler="tabs" data-toggler-collection="#tabs_star">
+                <div class="">
+                    اطلاعات فردی
+                </div>
+            </a>
+        </li>
+        <li class=" ">
+            <a href="#star2" class="" data-toggler="tabs" data-toggler-collection="#tabs_star">
+                <div class="">
+                    درخواست برنامه p2
+                </div>
+            </a>
+        </li>
+        <li class=" ">
+            <a href="#star3" class="" data-toggler="tabs" data-toggler-collection="#tabs_star">
+                <div class="">
+                    اهداف برنامه p3
+                </div>
+            </a>
+        </li>
+    </ul>
+
+
+    <div id="tabs_star" class="col-lg-12 star_tabs p0">
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 js-toggler is-fade  is-visible" id="star">
+
+            <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c_textarea" method="post" action="">
+                <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " for="programrequestpageinput_bimary" >آیا سابقه بیماری، جراحی و مصرف دارو دارید ؟</label>
+                <textarea id="programrequestpageinput_bimary" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 signuppage_input" cols="40" rows="4" ></textarea>
+                <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " for="programrequestpage_input_asib" >آیا سابقه مشکل حرکتی، آسیب یا درد مفصل دارید ؟</label>
+                <textarea id="programrequestpage_input_asib" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 signuppage_input" cols="40" rows="4" ></textarea>
+                <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " for="programrequestpage_input_sabeghe" >آیا سابقه ورزش در باشگاه ستارگان و یا باشگاه دیگری دارید ؟</label>
+                <textarea id="programrequestpage_input_sabeghe" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 signuppage_input" cols="40" rows="4" ></textarea>
+                <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " for="programrequestpage_input_regime" >آیا در کنار ورزش از رژیم خاصی نیز استفاده می کنید ؟</label>
+                <textarea id="programrequestpage_input_regime" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 signuppage_input" cols="40" rows="4" name="signup_textarea"></textarea>
+                <label class="col-lg-12 col-md-12 col-sm-12 col-xs-12 program_request_page_yellow_label" for="programrequestpage_input_desceription" >توضیحات بیشتر</label>
+                <textarea class="col-lg-12 col-md-12 col-sm-12 col-xs-12 textarea_h" id="programrequestpage_input_desceription" cols="40" rows="4" name="signup_textarea"></textarea>
+            </form>
+
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 js-toggler is-fade" id="star1">
+
+            <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tip_img" action="" method="post">
+                <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 B p0">
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a " for="programpart1page_input_fullname" >نام و نام خانوادگی :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 c_bg_3 ui-block-b" type="text" id="programpart1page_input_fullname"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_meetings" >تعداد جلسات :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 ui-block-b" type="text" id="programpart1page_input_meetings"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_Branch" >شعبه :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 c_bg_3 ui-block-b" type="text" id="programpart1page_input_Branch"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_date_request" >تاریخ درخواست :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 ui-block-b" type="text" id="programpart1page_input_date_request"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_Score" >InBody Score :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 c_bg_3 ui-block-b" type="text" id="programpart1page_input_Score"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_level" >سطح برنامه :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 ui-block-b" type="text" id="programpart1page_input_level"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_history" >سابقه ورزشی :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 c_bg_3 ui-block-b" type="text" id="programpart1page_input_history"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_height" >قد :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 ui-block-b" type="text" id="programpart1page_input_height"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_weight" >وزن :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 c_bg_3 ui-block-b" type="text" id="programpart1page_input_weight"  cols="40" rows="4" />
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="col-lg-3 col-md-3 col-sm-4 col-xs-4 ui-block-a" for="programpart1page_input_age" >سن :</label>
+                        <input class="col-lg-9 col-md-9 col-sm-8 col-xs-8 ui-block-b" type="text" id="programpart1page_input_age"  cols="40" rows="4" />
+                    </li>
+                </ul>
+            </form>
+
+
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 js-toggler is-fade" id="star2">
+
+            <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12  " action="" method="">
+                <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 B p0">
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="ui-block-a" for="programpart1page_input_shaneh" >سرشانه :</label>
+                        <input class="c_bg_3 ui-block-b" type="number" id="programpart1page_input_shaneh"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="ui-block-a" for="programpart1page_input_sineh" >سینه :</label>
+                        <input class="ui-block-b" type="number" id="programpart1page_input_sineh"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class=" ui-block-a" for="programpart1page_input_kamar" >کمر :</label>
+                        <input class="c_bg_3 ui-block-b" type="number" id="programpart1page_input_kamar"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="ui-block-a" for="programpart1page_input_shekam" >شکم :</label>
+                        <input class="ui-block-b" type="number" id="programpart1page_input_shekam"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="ui-block-a" for="programpart1page_input_basan" >باسن :</label>
+                        <input class="c_bg_3 ui-block-b" type="number" id="programpart1page_input_basan"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="ui-block-a" for="programpart1page_input_ran" >ران :</label>
+                        <input class="ui-block-b" type="number" id="programpart1page_input_ran"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class=" ui-block-a" for="programpart1page_input_sagh" >ساق :</label>
+                        <input class="c_bg_3 ui-block-b" type="number" id="programpart1page_input_sagh"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-a B p0">
+                        <label class="ui-block-a" for="programpart1page_input_bazoo" >بازو :</label>
+                        <input class="ui-block-b" type="number" id="programpart1page_input_bazoo"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                    <li class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ui-grid-b B p0">
+                        <label class=" ui-block-a" for="programpart1page_input_pahlooran" >پهلوران :</label>
+                        <input class="c_bg_3 ui-block-b" type="number" id="programpart1page_input_pahlooran"  cols="40" rows="4" />
+                        <div class="programpart2page_CM B">سانتی متر</div>
+                    </li>
+                </ul>
+                <fieldset class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0" data-role="controlgroup" data-iconpos="left" id="fl_sharayet">
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_1" id="checkbox_sharayet_1">
+                    <label for="checkbox_sharayet_1">لور دوز گردنی :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_2" id="checkbox_sharayet_2">
+                    <label class="f_b" for="checkbox_sharayet_2">کیفوز پشتی :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_3" id="checkbox_sharayet_3">
+                    <label for="checkbox_sharayet_3">لور دوز کمری :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_4" id="checkbox_sharayet_4">
+                    <label class="f_b" for="checkbox_sharayet_4">پای پرانتزی :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_5" id="checkbox_sharayet_5">
+                    <label for="checkbox_sharayet_5">پای ضربدری :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_6" id="checkbox_sharayet_6">
+                    <label class="f_b" for="checkbox_sharayet_6">افتادگی شانه :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_7" id="checkbox_sharayet_7">
+                    <label for="checkbox_sharayet_7">چرخ زانو :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_8" id="checkbox_sharayet_8">
+                    <label class="f_b" for="checkbox_sharayet_8">اسکولیوز :</label>
+                    <input class="cb" type="checkbox" name="checkbox_sharayet_9" id="checkbox_sharayet_9">
+                    <label for="checkbox_sharayet_9">کتف بالدار :</label>
+                </fieldset>
+            </form>
+
+
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 js-toggler is-fade" id="star3">
+
+            <form class="col-lg-12 col-md-12 col-sm-12 col-xs-12 programpart1page_fild ">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 labels">
+
+                    <div class="cb_tittle_2 cb_tittle B" > سینه (  حداکثر ۳ مورد) :</div>
+                    <fieldset data-role="controlgroup" data-iconpos="left" id="fl_sineh">
+                        <input class="cb" type="checkbox" name="checkbox_sineh_1" id="checkbox_sineh_1">
+                        <label for="checkbox_sineh_1">بالا کشیدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_sineh_2" id="checkbox_sineh_2">
+                        <label class="f_b" for="checkbox_sineh_2">حجم :</label>
+                        <input class="cb" type="checkbox" name="checkbox_sineh_3" id="checkbox_sineh_3">
+                        <label for="checkbox_sineh_3">سفت شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_sineh_4" id="checkbox_sineh_4">
+                        <label class="f_b" for="checkbox_sineh_4">فرم گیری :</label>
+                        <input class="cb" type="checkbox" name="checkbox_sineh_5" id="checkbox_sineh_5">
+                        <label for="checkbox_sineh_5">کاهش سایز :</label>
+                        <input class="cb" type="checkbox" name="checkbox_sineh_6" id="checkbox_sineh_6">
+                        <label class="f_b" for="checkbox_sineh_6">گرد شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_sineh_7" id="checkbox_sineh_7">
+                        <label for="checkbox_sineh_7">پر شدن بالاسینه :</label>
+                    </fieldset>
+
+
+                    <div class="cb_tittle_2 cb_tittle B" > بازو (  حداکثر ۲ مورد) :</div>
+                    <fieldset data-role="controlgroup" data-iconpos="left" id="fl_bazoo">
+                        <input class="cb" type="checkbox" name="checkbox_bazoo_1" id="checkbox_bazoo_1">
+                        <label for="checkbox_bazoo_1">فرم گیری :</label>
+                        <input class="cb" type="checkbox" name="checkbox_bazoo_2" id="checkbox_bazoo_2">
+                        <label class="f_b" for="checkbox_bazoo_2">پر شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_bazoo_3" id="checkbox_bazoo_3">
+                        <label for="checkbox_bazoo_3">کاهش سایز :</label>
+                        <input class="cb" type="checkbox" name="checkbox_bazoo_4" id="checkbox_bazoo_4">
+                        <label class="f_b" for="checkbox_bazoo_4">سفت شدن :</label>
+                    </fieldset>
+
+                    <div class="cb_tittle_2 cb_tittle B" >شکم و پهلو (  حداکثر ۲ مورد) :</div>
+                    <fieldset data-role="controlgroup" data-iconpos="left" id="fl_shekampahloo">
+                        <input class="cb" type="checkbox" name="checkbox_shekampahloo_1" id="checkbox_shekampahloo_1">
+                        <label for="checkbox_shekampahloo_1">چربی سوزی :</label>
+                        <input class="cb" type="checkbox" name="checkbox_shekampahloo_2" id="checkbox_shekampahloo_2">
+                        <label class="f_b" for="checkbox_shekampahloo_2">تقویت عضلات :</label>
+                        <input class="cb" type="checkbox" name="checkbox_shekampahloo_3" id="checkbox_shekampahloo_3">
+                        <label for="checkbox_shekampahloo_3">کات شدن :</label>
+                    </fieldset>
+
+                    <div class="cb_tittle_2 cb_tittle B" >باسن (  حداکثر ۳ مورد) :</div>
+                    <fieldset data-role="controlgroup" data-iconpos="left" id="fl_basan">
+                        <input class="cb" type="checkbox" name="checkbox_basan_1" id="checkbox_basan_1">
+                        <label for="checkbox_basan_1">گرد شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_basan_2" id="checkbox_basan_2">
+                        <label class="f_b" for="checkbox_basan_2">بالاکشیدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_basan_3" id="checkbox_basan_3">
+                        <label for="checkbox_basan_3">سفت شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_basan_4" id="checkbox_basan_4">
+                        <label class="f_b" for="checkbox_basan_4">حجم و پر شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_basan_5" id="checkbox_basan_5">
+                        <label for="checkbox_basan_5">پر شدن بغل باسن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_basan_6" id="checkbox_basan_6">
+                        <label class="f_b" for="checkbox_basan_6">کاهش سایز :</label>
+                        <input class="cb" type="checkbox" name="checkbox_basan_7" id="checkbox_basan_7">
+                        <label for="checkbox_basan_7">فرم گیری :</label>
+                    </fieldset>
+
+                    <div class="cb_tittle_2 cb_tittle B" >ران و ساق (  حداکثر ۴ مورد) :</div>
+                    <fieldset data-role="controlgroup" data-iconpos="left" id="fl_ransagh">
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_1" id="checkbox_ransagh_1">
+                        <label for="checkbox_ransagh_1">پر شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_2" id="checkbox_ransagh_2">
+                        <label class="f_b" for="checkbox_ransagh_2">سفت شدن :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_3" id="checkbox_ransagh_3">
+                        <label for="checkbox_ransagh_3">فرم گیری :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_4" id="checkbox_ransagh_4">
+                        <label class="f_b" for="checkbox_ransagh_4">تقویت عضلات :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_5" id="checkbox_ransagh_5">
+                        <label for="checkbox_ransagh_5">رفع سلولیت :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_6" id="checkbox_ransagh_6">
+                        <label class="f_b" for="checkbox_ransagh_6">کاهش سایز :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_7" id="checkbox_ransagh_7">
+                        <label for="checkbox_ransagh_7">کاهش سایز ساق :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_8" id="checkbox_ransagh_8">
+                        <label class="f_b" for="checkbox_ransagh_8">سفت شدن ساق :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_9" id="checkbox_ransagh_9">
+                        <label for="checkbox_ransagh_9">تقویت ساق :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ransagh_10" id="checkbox_ransagh_10">
+                        <label  class="f_b" for="checkbox_ransagh_10">چربی سوزی  :</label>
+                    </fieldset>
+
+                    <div class="cb_tittle_2 cb_tittle B" >پهلوران (  حداکثر ۲ مورد) :</div>
+                    <fieldset data-role="controlgroup" data-iconpos="left" id="fl_pahloran">
+                        <input class="cb" type="checkbox" name="checkbox_pahloran_1" id="checkbox_pahloran_1">
+                        <label for="checkbox_pahloran_1">چربی سوزی :</label>
+                        <input class="cb" type="checkbox" name="checkbox_pahloran_2" id="checkbox_pahloran_2">
+                        <label class="f_b" for="checkbox_pahloran_2">فرم گیری :</label>
+                        <input class="cb" type="checkbox" name="checkbox_pahloran_3" id="checkbox_pahloran_3">
+                        <label for="checkbox_pahloran_3">تقویت :</label>
+                        <input class="cb" type="checkbox" name="checkbox_pahloran_4" id="checkbox_pahloran_4">
+                        <label class="f_b" for="checkbox_pahloran_4">پر شدن :</label>
+                    </fieldset>
+
+                    <div class="cb_tittle_2 cb_tittle B" >عضلات کتفی (  حداکثر ۳ مورد) :</div>
+                    <fieldset data-role="controlgroup" data-iconpos="left" id="fl_ketfi">
+                        <input class="cb" type="checkbox" name="checkbox_ketfi_1" id="checkbox_ketfi_1">
+                        <label for="checkbox_ketfi_1">تقویت :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ketfi_2" id="checkbox_ketfi_2">
+                        <label class="f_b" for="checkbox_ketfi_2">فرم گیری :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ketfi_3" id="checkbox_ketfi_3">
+                        <label for="checkbox_ketfi_3">کاهش سایز :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ketfi_4" id="checkbox_ketfi_4">
+                        <label class="f_b" for="checkbox_ketfi_4">عقب رفتن شانه :</label>
+                        <input class="cb" type="checkbox" name="checkbox_ketfi_5" id="checkbox_ketfi_5">
+                        <label for="checkbox_ketfi_5">کات شدن :</label>
+                    </fieldset>
+                </div>
+
+                <div class="p3_price">
+                    <div id="d3" class="p3_price_title">هزینه درخواست برنامه</div>
+                    <div class="p3_number">۶۰۰۰۰</div>
+                    <div class="p3_toman">تومان</div>
+                </div>
+                <div class="p3_info">
+                    <p>باشگاه ویژه بانوان</p>
+                    <p>کلاس های گروهی زیر نظر مربیان مجرب</p>
+                    <p>شعار مجموعه ورزشی</p>
+                    <p>شعار مجموعه ورزشی</p>
+
+
+                </div>
+
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPT -->
+<script src="js/player.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/toggler.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    const player = new Plyr('#video_clip');
+
+</script>
+
+<script>
+        Toggler.Init({
+            CLASS_BASE: 'js-toggler',
+            CLASS_VISIBLE: 'is-visible',
+            CLASS_TARGET_VISIBLE: 'is-target-visible',
+            CLASS_TRANSITIONING: 'is-transitioning',
+            CLASS_FADE: 'is-fade',
+            CLASS_SLIDEFADE: 'is-slidefade',
+            DELEGATE_CLICK: false
+        });
+</script>
+
+<script>
+    // var swiper = new Swiper('.swiper-container_on', {
+    //     slidesPerView: 1,
+    //     spaceBetween: 30,
+    //     loop: true,
+    //     autoplay: {
+    //         delay: 2500,
+    //         disableOnInteraction: false,
+    //     },
+    //     pagination: {
+    //         el: '.swiper-pagination_on',
+    //     },
+    // });
+</script>
+
+<script>
+    $(function(){
+        var $ppc = $('.progress-pie-chart'),
+            percent = parseInt($ppc.data('percent')),
+            deg = 360*percent/5;
+        if (percent > 1) {
+            $ppc.addClass('gt-50');
+        }
+        $('.ppc-progress-fill').css('transform','rotate('+ deg +'deg)');
+        $('.point_d').html(percent);
+    });
+</script>
+<script>
+    function swiper () {
+        var swiper = new Swiper('.swiper-container_inn', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        pagination: {
+            el: '.swiper-pagination_inn',
+            type: 'progressbar',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    }
+
+
+    function swiper_inn () {
+        setTimeout(function() {
+            swiper("updateSliderSize", true);
+        }, 300);
+    }
+</script>
+
+</body>
+</html>

@@ -2228,22 +2228,11 @@ footer .second_section .copyRight_l span{
     line-height: 4;
 }
 /* ---- form_sefaresh --*/
-.niazmandiha_form .all .form_sefaresh_title{
-    height: 1px;
-    background: #e7ebee;
-}
-.niazmandiha_form .all .form_sefaresh_title .form_sefaresh_title_in{
-    margin: -5px 0 0 0;
-    text-align: center;
-}
-.niazmandiha_form .all .form_sefaresh_title span{
-    background: #f4f6f8;
-    border-radius: 20px;
-    padding: 2px 10px;
-    font-size: 12px;
-}
 .niazmandiha_form form{
-    padding: 30px 0!important;
+    padding: 15px 0!important;
+}
+.niazmandiha_form form .text_title{
+    padding: 20px 20px;
 }
 .niazmandiha_form form .fild .radio_input{
     padding: 0 35px !important;
@@ -2262,17 +2251,88 @@ footer .second_section .copyRight_l span{
 .niazmandiha_form form .fild select{
     border: none;
 }
-.niazmandiha_form form .tarefeh{
-
+.niazmandiha_form form .tarefeh_link a{
+    color: #2a57ff !important;
+    line-height: 3;
+    font-size: 11px;
 }
-.niazmandiha_form form .tarefeh .tarefeh_link{
-
+.niazmandiha_form form .img_place{
+    padding: 10px !important;
 }
-
-
-
-
-
+.niazmandiha_form form .img_place .img_input{
+    margin-left: 10px !important;
+}
+.niazmandiha_form form .pish_namayesh{
+    display: inline-flex;
+}
+.niazmandiha_form form .pish_namayesh button{
+    margin: 0 auto;
+    display: block;
+    background: #3a4163;
+    padding: 2px 0!important;
+}
+.niazmandiha_form form .niazmandi_radio{
+    padding: 15px !important;
+}
+.niazmandiha_form form .niazmandi_radio li{
+    float: right;
+    padding: 5px 10px !important;
+}
+.niazmandiha_form form .niazmandi_radio li label{
+    border: 1px solid #E7EBEE;
+    border-radius: 20px;
+    padding: 5px 7px !important;
+}
+.niazmandiha_form form .niazmandi_radio li .checkmark{
+    top: 13px !important;
+    right: 10px!important;
+}
+.niazmandiha_form form .vaziat_kala{
+    clear: both;
+}
+.niazmandiha_form form .vaziat_kala .title{
+    float: right;
+    line-height: 3.5;
+}
+.niazmandiha_form form .vaziat_kala .radio_input{
+    right: 10px;
+    padding: 0 !important;
+    margin: 0 10px;
+    border: 1px  solid #e7ebee;
+    border-radius: 20px;
+    line-height: 3;
+}
+.niazmandiha_form form .vaziat_kala .radio_input .checkmark{
+    right: 7px;
+    top: 10px;
+}
+.niazmandiha_form form .text_title span{
+    padding: 0 20px !important;
+    color: #c0c8d3;
+}
+.niazmandiha_form form .fild .img_place li{
+    float: right;
+    margin: 0 !important;
+}
+.niazmandiha_form form .noe_badane{
+    clear: right;
+}
+.niazmandiha_form form .noe_badane .checkmark{
+    right: 5px !important;
+}
+.niazmandiha_form form .naghlie_makhsoos{
+    padding: 10px 0 !important;
+}
+.niazmandiha_form form .naghlie_makhsoos .title{
+    margin: -15px 15px 0 0;
+    padding: 10px 15px!important;
+    border-radius: 20px;
+    background: #f7e8da;
+    text-align: center;
+}
+.niazmandiha_form form .naghlie_makhsoos .body{
+    border-color: #f7e8da!important;
+}
 
 
 
@@ -2359,3 +2419,10 @@ footer .second_section .copyRight_l span{
     float: right;
 }
 /* ----------------------- End of progress --*/
+
+
+
+
+
+
+
