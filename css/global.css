@@ -238,7 +238,7 @@ textarea{
     border: none;
 }
 
-/* ------- input_global -------- */
+/* ------- filld -------- */
 form .fild{
     padding-bottom: 20px !important;
     line-height: 2.5;
@@ -264,8 +264,11 @@ form .fild .fild_title label{
 form .fild .fild_in{
     border: 1px solid #E7EBEE;
     border-radius: 20px;
-    padding: 5px 10px !important;
+    padding: 5px 10px ;
     position: relative;
+}
+form .select {
+    padding: 10px 25px 10px 10px !important;
 }
 form .fild .fild_in input{
     border: none;
@@ -275,6 +278,10 @@ form .fild .fild_in input{
     -moz-transition: opacity 0.2s 0.2s ease;
     -o-transition: opacity 0.2s 0.2s ease;
 }
+form .text_title{
+    padding: 20px 20px !important;
+}
+
 /* --------------- check_mark_style --*/
 form .fild .radio_label .checkmark{
     position: absolute;
@@ -566,13 +573,12 @@ form .form_midle_title span{
     background: #f4f6f8;
     border-radius: 20px;
     padding: 2px 15px;
-    font-size: 12px;
     border: 1px solid #e7ebee;
 }
 /* ------- form_change_button -------- */
 form .button_change{
     text-align: right;
-    margin-top: 3px;
+    margin-top: 5px;
     border: none;
     float: right;
     padding: 8px 20px;
@@ -615,6 +621,7 @@ form .img_input_in i{
 form .main_button{
     text-align: center;
     margin-top: 3px;
+    margin-bottom: 15px !important;
     border: none;
     float: right;
     padding: 8px 20px;

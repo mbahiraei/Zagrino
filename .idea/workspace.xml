@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="409a9855-4a5d-4546-a205-b259e51106a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/starssss.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Niazmandi-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Niazmandi-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Niazmandi-ghavanin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Niazmandi-ghavanin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -42,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -185,6 +185,23 @@
       <workItem from="1572705047179" duration="6421000" />
       <workItem from="1572770981076" duration="3011000" />
       <workItem from="1572784808553" duration="1990000" />
+      <workItem from="1572855333395" duration="1815000" />
+      <workItem from="1572932284673" duration="7087000" />
+      <workItem from="1572957263099" duration="2396000" />
+      <workItem from="1573106443066" duration="733000" />
+      <workItem from="1573369395451" duration="4583000" />
+      <workItem from="1573538407467" duration="2263000" />
+      <workItem from="1573740652206" duration="1243000" />
+      <workItem from="1573742494665" duration="173000" />
+      <workItem from="1573744871278" duration="601000" />
+      <workItem from="1573889172363" duration="428000" />
+      <workItem from="1574141693845" duration="238000" />
+      <workItem from="1574141962568" duration="1850000" />
+      <workItem from="1574149166270" duration="471000" />
+      <workItem from="1574149658625" duration="3466000" />
+      <workItem from="1574153777572" duration="405000" />
+      <workItem from="1574226840165" duration="1697000" />
+      <workItem from="1574659607719" duration="3238000" />
     </task>
     <servers />
   </component>

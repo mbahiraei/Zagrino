@@ -2116,7 +2116,6 @@ footer .second_section .copyRight_l span{
 .niazmandiha_form .all .hint .title{
     color: #1ea662;
     float: right;
-    font-size: 12px;
     border: 1px solid #1ea662;
     border-radius: 20px;
     padding: 5px 10px !important;
@@ -2124,13 +2123,12 @@ footer .second_section .copyRight_l span{
     background: #fff;
 }
 .niazmandiha_form .all .hint p{
-    padding: 10px;
-    font-size: 11px;
+    padding: 20px 10px;
     color: #1ea662;
-    line-height: 1.5;
+    line-height: 2.5;
 }
 .niazmandiha_form .all .raigan, .vizheh{
-    padding: 20px !important;
+    padding:45px 20px !important;
 }
 .niazmandiha_form .all .raigan_body{
     background-image: url("img/gary_bg.png");
@@ -2145,10 +2143,10 @@ footer .second_section .copyRight_l span{
     background-position: bottom;
     border-radius: 20px;
 }
-.niazmandiha_form .all .raigan .title {
+.niazmandiha_form .all .raigan .title, .vizheh .title {
     text-align: center;
-    margin: 10px 0;
-    font-size: 13px;
+    margin: 5px 0 10px 0;
+    font-size: 14px;
 }
 .niazmandiha_form .all .raigan ul{
     margin: 20px 0 0 0;
@@ -2156,7 +2154,6 @@ footer .second_section .copyRight_l span{
 }
 .niazmandiha_form .all .raigan ul li {
     padding: 10px 0 !important;
-    font-size: 11px;
 }
 .niazmandiha_form .all .raigan ul li::before {
     content: "•";
@@ -2169,6 +2166,7 @@ footer .second_section .copyRight_l span{
     margin: -4px 0 0 0;
     line-height: 3.3;
     color: #fff;
+    display: inline-flex;
 }
 .niazmandiha_form .all .raigan .foot .foot_in{
     text-align: center;
@@ -2177,13 +2175,12 @@ footer .second_section .copyRight_l span{
     background-size: contain;
     background-position: top;
     float: right;
-    margin-right: -1px;
+    display: block;
+    margin: 0 auto;
+    right: -1px !important;
 }
 .niazmandiha_form .all .vizheh .title {
     color: #ed1c24;
-    text-align: center;
-    margin: 10px 0;
-    font-size: 13px;
 }
 .niazmandiha_form .all .vizheh .takhfif{
     margin: -15px 0 0 0;
@@ -2200,7 +2197,6 @@ footer .second_section .copyRight_l span{
 }
 .niazmandiha_form .all .vizheh ul li {
     padding: 10px 0 !important;
-    font-size: 11px;
     color: #fff;
 }
 .niazmandiha_form .all .vizheh ul li::before {
@@ -2214,6 +2210,7 @@ footer .second_section .copyRight_l span{
     margin: -7px 0 0 0;
     line-height: 3.3;
     color: #fff;
+    display: inline-flex;
 }
 .niazmandiha_form .all .vizheh .foot .foot_in{
     text-align: center;
@@ -2222,17 +2219,24 @@ footer .second_section .copyRight_l span{
     background-size: contain;
     background-position: top;
     float: right;
-    margin-right: -1px;
+    right: -1px;
+    display: block;
+    margin: 0 auto;
 }
 .niazmandiha_form .all .foot .foot_in div{
     line-height: 4;
+}
+.niazmandiha_form form .map{
+    height: 190px;
+    border-radius: 20px;
 }
 /* ---- form_sefaresh --*/
 .niazmandiha_form form{
     padding: 15px 0!important;
 }
-.niazmandiha_form form .text_title{
-    padding: 20px 20px;
+.niazmandiha_form form label{
+    font-weight: normal !important;
+    color: #808080 !important;
 }
 .niazmandiha_form form .fild .radio_input{
     padding: 0 35px !important;
@@ -2249,6 +2253,8 @@ footer .second_section .copyRight_l span{
     border:1px solid #949ba4;
 }
 .niazmandiha_form form .fild select{
+    color: #a39d9d !important;
+    font-size: 12px;
     border: none;
 }
 .niazmandiha_form form .tarefeh_link a{
@@ -2332,7 +2338,56 @@ footer .second_section .copyRight_l span{
 }
 .niazmandiha_form form .naghlie_makhsoos .body{
     border-color: #f7e8da!important;
+    padding: 25px 0 !important;
 }
+
+/* -------------- niazmandi_ghavanin --------------------------------*/
+.niazmandi_ghavanin .outer{
+    text-align: center;
+    background: #673ab7;
+    border-radius: 20px !important;
+}
+.niazmandi_ghavanin .all{
+    margin: 40px 0;
+    border: 2px dotted #dcdcdc;
+    border-radius: 20px;
+    padding: 50px 20px!important;
+}
+.niazmandi_ghavanin .head_title{
+    text-align: center;
+    margin: -62px 0 0 0;
+}
+.niazmandi_ghavanin .head_title span{
+    padding: 0 10px;
+    font-size: 20px;
+    background: #fff;
+}
+.niazmandi_ghavanin .ghavanin{
+    color: #ed1c24;
+    float: right;
+    line-height: 5;
+}
+.niazmandi_ghavanin .ghavanin .bottom{
+    width: 50%;
+    height: 1px;
+    background: #ed1c24;
+}
+.niazmandi_ghavanin p{
+    clear: both;
+    padding: 20px 0;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
