@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="409a9855-4a5d-4546-a205-b259e51106a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Niazmandi-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Niazmandi-Form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Niazmandi-ghavanin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Niazmandi-ghavanin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankMashaghelRaigan_Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/BankMashaghelRaigan_Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Niazmandi-namayeshAgahi-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Niazmandi-namayeshAgahi-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -202,6 +201,8 @@
       <workItem from="1574153777572" duration="405000" />
       <workItem from="1574226840165" duration="1697000" />
       <workItem from="1574659607719" duration="3238000" />
+      <workItem from="1574835445712" duration="6937000" />
+      <workItem from="1574861240303" duration="10252000" />
     </task>
     <servers />
   </component>
